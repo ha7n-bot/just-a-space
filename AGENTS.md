@@ -1,0 +1,2 @@
+# Working agreement
+Run from project root on Node 24. Use npm ci, npm run lint, npm test, npm run build. Keep locale variants together. Escape every interpolated value. Read DATA_VERIFICATION and MENU_DATA_SCHEMA before updating public records. SQL mutations, authorization, publication checks and audit records belong on the server. Never include live databases, credentials, visitor messages or customer personal data in Git or static builds. A preview must remain excluded from indexing. Maintain a record of tested configurations and open release gates in FINAL_AUDIT.md.

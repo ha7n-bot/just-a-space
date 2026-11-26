@@ -1,0 +1,13 @@
+node_modules/
+var/
+*.sqlite*
+*.db
+.env
+.env.*
+!.env.example
+dist/
+.openai/
+__pycache__/
+test-results/
+playwright-report/
+qa-output/

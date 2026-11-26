@@ -1,0 +1,14 @@
+.git
+.github
+node_modules
+**/node_modules
+.env
+.env.*
+var
+db
+backups
+**/*.sqlite*
+*.zip
+qa/evidence
+test-results
+playwright-report

@@ -1,0 +1,40 @@
+name: Browser and accessibility checks
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  browser:
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [chromium, firefox, webkit]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: python -m venv /tmp/site-qa && /tmp/site-qa/bin/pip install playwright==1.55.0
+      - run: /tmp/site-qa/bin/playwright install --with-deps "${{ matrix.engine }}"
+      - run: npm install --prefix /tmp/site-qa-tools --ignore-scripts axe-core@4.10.3
+      - run: |
+          node server.mjs > /tmp/just-a-space-ci.log 2>&1 &
+          trap 'kill $!' EXIT
+          curl --fail --silent --retry 15 --retry-all-errors --retry-delay 1 http://127.0.0.1:3000/ar > /dev/null
+          /tmp/site-qa/bin/python tests/browser_qa.py http://127.0.0.1:3000 --browser "${{ matrix.engine }}" --axe /tmp/site-qa-tools/node_modules/axe-core/axe.min.js --output qa-output
+      - name: Test the disposable menu fixture
+        run: |
+          export DB_PATH="$(node qa/menu-fixture.mjs)"
+          PORT=3010 node server.mjs > /tmp/just-a-space-fixture.log 2>&1 &
+          trap 'kill $!' EXIT
+          curl --fail --silent --retry 15 --retry-all-errors --retry-delay 1 http://127.0.0.1:3010/ar > /dev/null
+          /tmp/site-qa/bin/python qa/fixture_browser.py http://127.0.0.1:3010 --browser "${{ matrix.engine }}"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: browser-${{ matrix.engine }}
+          path: qa-output/
+          retention-days: 7
