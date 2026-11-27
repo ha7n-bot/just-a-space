@@ -1,0 +1,35 @@
+name: Mobile Lighthouse audit
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  mobile-lab:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Install isolated audit tooling
+        run: npm install --prefix /tmp/site-audit --ignore-scripts lighthouse@12.8.2
+      - name: Measure both locale homepages using Lighthouse mobile defaults
+        run: |
+          node server.mjs > /tmp/just-a-space-perf.log 2>&1 &
+          trap 'kill $!' EXIT
+          curl --fail --silent --retry 15 --retry-all-errors --retry-delay 1 http://127.0.0.1:3000/ar > /dev/null
+          mkdir -p lab-output
+          for lang in ar en; do
+            /tmp/site-audit/node_modules/.bin/lighthouse "http://127.0.0.1:3000/$lang" \
+              --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage" \
+              --output=json --output-path="lab-output/$lang.json" --quiet
+            node -e 'const r=require("./lab-output/"+process.argv[1]+".json"); console.log(JSON.stringify({lang:process.argv[1],version:r.lighthouseVersion,scores:Object.fromEntries(Object.entries(r.categories).map(([k,v])=>[k,v.score])),LCP:r.audits["largest-contentful-paint"].numericValue,CLS:r.audits["cumulative-layout-shift"].numericValue,TBT:r.audits["total-blocking-time"].numericValue}));' "$lang"
+          done
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: lighthouse-mobile
+          path: lab-output/
+          retention-days: 7

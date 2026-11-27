@@ -1,0 +1,563 @@
+{
+  "chromium": {
+    "passed": 495,
+    "failed": 18,
+    "failures": [
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/menu"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/about"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/experience"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/gallery"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/location"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/contact"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/privacy"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/terms"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/menu"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/about"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/experience"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/gallery"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/location"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/contact"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/privacy"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/terms"
+      }
+    ]
+  },
+  "firefox": {
+    "passed": 456,
+    "failed": 57,
+    "failures": [
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar",
+        "width": 375,
+        "overflow": 733
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar",
+        "width": 390,
+        "overflow": 718
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar",
+        "width": 430,
+        "overflow": 680
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar",
+        "width": 768,
+        "overflow": 482
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar",
+        "width": 1024,
+        "overflow": 255
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/menu"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/about",
+        "width": 320,
+        "overflow": 965
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/about",
+        "width": 375,
+        "overflow": 910
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/about",
+        "width": 390,
+        "overflow": 895
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/about",
+        "width": 430,
+        "overflow": 857
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/about",
+        "width": 768,
+        "overflow": 662
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/about",
+        "width": 1024,
+        "overflow": 432
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/about"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/experience",
+        "width": 320,
+        "overflow": 482
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/experience",
+        "width": 375,
+        "overflow": 427
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/experience",
+        "width": 390,
+        "overflow": 412
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/experience",
+        "width": 430,
+        "overflow": 374
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/experience",
+        "width": 768,
+        "overflow": 173
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/experience"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/gallery",
+        "width": 320,
+        "overflow": 1218
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/gallery",
+        "width": 375,
+        "overflow": 1163
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/ar/gallery",
+        "width": 390,
+        "overflow": 1148
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/gallery"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/location"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/contact"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/privacy"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/terms"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en",
+        "width": 320,
+        "overflow": 788
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en",
+        "width": 375,
+        "overflow": 733
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en",
+        "width": 390,
+        "overflow": 718
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en",
+        "width": 430,
+        "overflow": 680
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en",
+        "width": 768,
+        "overflow": 499
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en",
+        "width": 1024,
+        "overflow": 271
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/menu"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/about",
+        "width": 320,
+        "overflow": 965
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/about",
+        "width": 375,
+        "overflow": 910
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/about",
+        "width": 390,
+        "overflow": 895
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/about",
+        "width": 430,
+        "overflow": 857
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/about",
+        "width": 768,
+        "overflow": 649
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/about",
+        "width": 1024,
+        "overflow": 419
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/about"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/experience",
+        "width": 320,
+        "overflow": 482
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/experience",
+        "width": 375,
+        "overflow": 427
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/experience",
+        "width": 390,
+        "overflow": 412
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/experience",
+        "width": 430,
+        "overflow": 374
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/experience",
+        "width": 768,
+        "overflow": 189
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/experience"
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/gallery",
+        "width": 320,
+        "overflow": 1218
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/gallery",
+        "width": 375,
+        "overflow": 1163
+      },
+      {
+        "check": "horizontal overflow",
+        "pass": false,
+        "path": "/en/gallery",
+        "width": 390,
+        "overflow": 1148
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/gallery"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/location"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/contact"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/privacy"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/terms"
+      }
+    ]
+  },
+  "webkit": {
+    "passed": 495,
+    "failed": 18,
+    "failures": [
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/menu"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/about"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/experience"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/gallery"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/location"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/contact"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/privacy"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/ar/terms"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/menu"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/about"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/experience"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/gallery"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/location"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/contact"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/privacy"
+      },
+      {
+        "check": "enlarged text overflow",
+        "pass": false,
+        "path": "/en/terms"
+      }
+    ]
+  }
+}
