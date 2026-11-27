@@ -9,3 +9,9 @@
 @media(prefers-reduced-motion:no-preference){.hero-copy{animation:arrive .45s ease-out}@keyframes arrive{from{transform:translateY(.35rem)}to{transform:translateY(0)}}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.mast,.crumb,footer,.btn,.menu-controls,.skip,.print,.actions,.tools{display:none!important}:root,body{background:#fff;color:#000}.wrap{padding:0}.page-heading{padding:0 0 1rem}.products{display:block}.product{display:block;break-inside:avoid}.product-img,.product img{display:none}.product-line{display:flex}.page-body{padding:0}.flag{background:none}.study{break-inside:avoid}}
+/* Replaced elements must shrink below their intrinsic width in Firefox grids. */
+.hero,.editorial,.story-layout,.visit-grid,.gallery,.products,.detail,.footer-inner{min-width:0}
+.hero>*,.editorial>*,.story-layout>*,.visit-grid>*,.gallery>*,.products>*,.detail>*,.footer-inner>*,.mast-inner>*,.section-top>*{min-width:0}
+img{max-inline-size:100%;height:auto}
+@media(max-width:44rem){.hero,.editorial,.story-layout,.visit-grid,.detail,.footer-inner{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:32rem){.mast-inner{gap:.25rem}.tools{gap:.125rem}.tools .icon{display:none}.mast-inner .wordmark{font-size:1.18rem}.section-top{flex-wrap:wrap;align-items:start}.section-top .btn{white-space:normal}.tools a,.desktop a{white-space:normal}.wrap,.mast-inner,.footer-inner,.fine{padding-inline:min(5vw,1.25rem)}.products,.gallery{grid-template-columns:minmax(0,1fr)}.mast-inner .wordmark{font-size:clamp(17px,6.2vw,24px)}}
