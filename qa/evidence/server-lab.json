@@ -1,0 +1,24 @@
+{
+  "node": "v24.22.3",
+  "scope": "warmed renderPage call only",
+  "runs": 1000,
+  "home": {
+    "ar": {
+      "p50_ms": 0.029124999999993406,
+      "p95_ms": 0.10460399999999481,
+      "htmlBytes": 6183
+    },
+    "en": {
+      "p50_ms": 0.026720000000011623,
+      "p95_ms": 0.05237900000000195,
+      "htmlBytes": 5571
+    }
+  },
+  "assets": {
+    "site.css": 13468,
+    "site.js": 1985,
+    "arabic.woff": 94572,
+    "studio-hero.webp": 187092,
+    "studio-detail.webp": 89412
+  }
+}

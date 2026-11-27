@@ -1,0 +1,1210 @@
+{
+  "purpose": "Internal research evidence. Never import these records as live CMS entries.",
+  "checkedOn": "2026-11-26",
+  "sources": {
+    "brief": {
+      "type": "Client research brief",
+      "url": null,
+      "notes": "Project input. Ownership and official sign-off were not supplied."
+    },
+    "maps": {
+      "type": "User-supplied Maps link",
+      "url": "https://maps.app.goo.gl/Nbs6oAdbK9uQ4tcu8",
+      "notes": "Short URL could not be resolved in this research environment. Explicitly supplied as fallback."
+    },
+    "instagram": {
+      "type": "Candidate social profile",
+      "url": "https://www.instagram.com/justaspace.sa/",
+      "notes": "Direct profile could not be retrieved. Directory links point here. No ownership proof."
+    },
+    "rgmenu": {
+      "type": "Menu directory",
+      "url": "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+      "notes": "Direct page unavailable. No menu image date, provenance or outlet-specific store price could be checked."
+    },
+    "rg": {
+      "type": "Independent directory",
+      "url": "https://restaurantguru.com/Just-A-Space-Riyadh",
+      "notes": "Index returned the Riyadh café, a street address, feature tags and hours. Mixed customer material."
+    },
+    "yango": {
+      "type": "Independent map directory",
+      "url": "https://maps.yango.com/en-sa/org/13252761537/",
+      "notes": "Branch match on street, district, English name and café category."
+    },
+    "world": {
+      "type": "Independent café directory",
+      "url": "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+      "notes": "Address, name and café category match. Unclaimed-directory context. Search and open snapshots give differing update dates."
+    },
+    "corner": {
+      "type": "Independent place directory",
+      "url": "https://www.corner.inc/place/pYNfr8sqDN6K",
+      "notes": "Branch match. Outbound Directions link contains a Google Place ID. Its Site link goes to Instagram."
+    },
+    "daymark": {
+      "type": "Independent design/coffee guide",
+      "url": "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh",
+      "notes": "Search-index text describes monochrome, clean lines and the same branch. Direct open returned 502."
+    },
+    "radar": {
+      "type": "Social mention index",
+      "url": "https://influence-radar.com/brands/just-a-space",
+      "notes": "Arabic spelling differs from the brief. Dessert and iced-drink mentions provide search leads, without an official outlet price."
+    },
+    "brew92": {
+      "type": "Competitor official website",
+      "url": "https://www.brew92.com/locations",
+      "notes": "The Al Imam listing pairs Riyadh address, weekday-specific hours and map destination. Used for journey comparison only."
+    },
+    "places": {
+      "type": "Google platform policy",
+      "url": "https://developers.google.com/maps/documentation/places/web-service/policies",
+      "notes": "Attribution, storage and review/photo display requirements apply when using Places content."
+    },
+    "seo": {
+      "type": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+      "notes": "Check visible branch information against markup. Search appearance depends on Google."
+    },
+    "hreflang": {
+      "type": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "notes": "Use reciprocal language alternatives on equivalent pages and canonical origin in production."
+    },
+    "pdpl": {
+      "type": "Saudi legislation, English text",
+      "url": "https://misa.gov.sa/app/uploads/2025/08/PersonalDataProtectionLaw.pdf",
+      "notes": "Review articles 4, 10–13, 18–20 and cross-border processing provisions with the actual controller and hosting configuration."
+    },
+    "vat": {
+      "type": "Saudi ZATCA guidance",
+      "url": "https://www.zatca.gov.sa/en/HelpCenter/guidelines/Documents/Business%20promotions.pdf",
+      "notes": "Section 5.1 describes VAT-inclusive locally published retail prices, including electronically displayed prices."
+    },
+    "sfda": {
+      "type": "Saudi food regulator",
+      "url": "https://sfda.gov.sa/en/news/17639",
+      "notes": "Reviews electronic menu disclosures covering caffeine, salt and physical activity equivalents, effective July 2025."
+    }
+  },
+  "fields": [
+    {
+      "field": "name.en",
+      "retrievedValue": "JUST A SPACE",
+      "sourceUrls": [
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://maps.yango.com/en-sa/org/13252761537/",
+        "https://www.corner.inc/place/pYNfr8sqDN6K"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent café directory",
+        "Independent map directory",
+        "Independent place directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "high",
+      "verificationStatus": "VERIFIED",
+      "conflictingInformation": null,
+      "publicationPermission": "staging factual identifier",
+      "requiredFollowUp": "Confirm exact trade name and capitalization in owner paperwork before official launch."
+    },
+    {
+      "field": "name.ar",
+      "retrievedValue": "جست أ سبيس",
+      "sourceUrls": [
+        "https://influence-radar.com/brands/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Social mention index"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "CONFLICTING",
+      "conflictingInformation": "Third-party references include جاست اسبيس and جست سبيس.",
+      "publicationPermission": "staging seed transliteration only",
+      "requiredFollowUp": "Ask for approved Arabic lockup or commercial brand name."
+    },
+    {
+      "field": "business.category",
+      "retrievedValue": "Café / specialty coffee",
+      "sourceUrls": [
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://maps.yango.com/en-sa/org/13252761537/"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent café directory",
+        "Independent map directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "high",
+      "verificationStatus": "VERIFIED",
+      "conflictingInformation": null,
+      "publicationPermission": "staging factual identifier",
+      "requiredFollowUp": "Confirm preferred bilingual descriptor."
+    },
+    {
+      "field": "address.branch",
+      "retrievedValue": {
+        "street": "Al Takhassousi Street",
+        "district": "Al Nakheel",
+        "city": "Riyadh",
+        "postalCode": "12383",
+        "country": "SA"
+      },
+      "sourceUrls": [
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://maps.yango.com/en-sa/org/13252761537/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent café directory",
+        "Independent map directory",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "high",
+      "verificationStatus": "VERIFIED",
+      "conflictingInformation": null,
+      "publicationPermission": "staging factual address",
+      "requiredFollowUp": "Confirm official National Address and on-site entrance."
+    },
+    {
+      "field": "maps.fallback",
+      "retrievedValue": "https://maps.app.goo.gl/Nbs6oAdbK9uQ4tcu8",
+      "sourceUrls": [
+        "https://maps.app.goo.gl/Nbs6oAdbK9uQ4tcu8"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "User-supplied Maps link"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "medium",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "user-authorized fallback link",
+      "requiredFollowUp": "Owner to test short URL on device and confirm pin."
+    },
+    {
+      "field": "maps.placeId",
+      "retrievedValue": "ChIJ2wq6u37jLj4RJfYMWgjeRGI",
+      "sourceUrls": [
+        "https://www.corner.inc/place/pYNfr8sqDN6K",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Independent place directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "medium-high",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Confirm using an authorized Places Place Details response, or owner listing."
+    },
+    {
+      "field": "maps.plusCode",
+      "retrievedValue": "QJ3Q+GJ Riyadh",
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Verify the exact entrance with owner."
+    },
+    {
+      "field": "maps.coordinates",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://www.corner.inc/place/pYNfr8sqDN6K",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Independent place directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "medium-high",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Obtain independently owner-approved coordinates before saving in the production CMS. Outbound directory links identify a shared map pin."
+    },
+    {
+      "field": "instagram",
+      "retrievedValue": "https://www.instagram.com/justaspace.sa/",
+      "sourceUrls": [
+        "https://www.instagram.com/justaspace.sa/",
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://www.corner.inc/place/pYNfr8sqDN6K"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Candidate social profile",
+        "Independent directory",
+        "Independent café directory",
+        "Independent place directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "medium-high",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Owner to confirm control and current handle."
+    },
+    {
+      "field": "officialWebsite",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "telephone",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "whatsapp",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "email",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "tiktok",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "snapchat",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "deliveryPlatforms",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "ramadanHours",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "holidayHours",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "temporaryClosures",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "ownerStory",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain directly from authorized operator. Confirm branch and effective date."
+    },
+    {
+      "field": "dineIn",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain explicit branch confirmation. Accessibility requires entrance, restroom and seating details."
+    },
+    {
+      "field": "takeaway",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://maps.yango.com/en-sa/org/13252761537/"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent café directory",
+        "Independent map directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain explicit branch confirmation. Accessibility requires entrance, restroom and seating details."
+    },
+    {
+      "field": "delivery.contactless",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain explicit branch confirmation. Accessibility requires entrance, restroom and seating details."
+    },
+    {
+      "field": "parking",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://maps.yango.com/en-sa/org/13252761537/"
+      ],
+      "sourceTypes": [
+        "Independent directory",
+        "Independent map directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain explicit branch confirmation. Accessibility requires entrance, restroom and seating details."
+    },
+    {
+      "field": "stepFreeAccess",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://maps.yango.com/en-sa/org/13252761537/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Independent directory",
+        "Independent map directory",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Obtain explicit branch confirmation. Accessibility requires entrance, restroom and seating details."
+    },
+    {
+      "field": "weeklyHours",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Independent directory",
+        "Independent café directory",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "CONFLICTING",
+      "conflictingInformation": "On Tuesday, sources give 00:30 or 01:00 closing; weekend schedules also differ.",
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request dated seven-day schedule and date-specific overrides."
+    },
+    {
+      "field": "reviews.snapshot",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "CONFLICTING",
+      "conflictingInformation": "Brief and directory differ on both rating and count.",
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Use the Maps link until an authorized live source is configured; disregard historical snapshots."
+    },
+    {
+      "field": "priceRangePerPerson",
+      "retrievedValue": "SAR 20–40",
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Average-spend observations cannot support an item price."
+    },
+    {
+      "field": "brand.logo",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "brand.font",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "brand.palette",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "brand.photography",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "brand.packaging",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "brand.slogan",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "brand.officialMenu",
+      "retrievedValue": null,
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh/menu",
+        "https://www.instagram.com/justaspace.sa/",
+        "https://www.daymarkcoffeeguide.com/coffee-shops/just-a-space-an-nakheel-riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Menu directory",
+        "Candidate social profile",
+        "Independent design/coffee guide"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "OWNER_APPROVAL_REQUIRED",
+      "conflictingInformation": null,
+      "publicationPermission": "withhold",
+      "requiredFollowUp": "Request source assets, usage scope, dated approval and rights holder."
+    },
+    {
+      "field": "menuCandidate.Banana Pudding",
+      "retrievedValue": {
+        "nameEn": "Banana Pudding",
+        "researchTranslationAr": "بودينغ الموز",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://influence-radar.com/brands/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Social mention index"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Iced Salted Vanilla",
+      "retrievedValue": {
+        "nameEn": "Iced Salted Vanilla",
+        "researchTranslationAr": "فانيلا مملحة مثلجة",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh",
+        "https://influence-radar.com/brands/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory",
+        "Social mention index"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.V60",
+      "retrievedValue": {
+        "nameEn": "V60",
+        "researchTranslationAr": "قهوة V60",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://www.corner.inc/place/pYNfr8sqDN6K"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent place directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Espresso",
+      "retrievedValue": {
+        "nameEn": "Espresso",
+        "researchTranslationAr": "إسبريسو",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent café directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Americano",
+      "retrievedValue": {
+        "nameEn": "Americano",
+        "researchTranslationAr": "أمريكانو",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Flat White",
+      "retrievedValue": {
+        "nameEn": "Flat White",
+        "researchTranslationAr": "فلات وايت",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Cortado",
+      "retrievedValue": {
+        "nameEn": "Cortado",
+        "researchTranslationAr": "كورتادو",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Latte",
+      "retrievedValue": {
+        "nameEn": "Latte",
+        "researchTranslationAr": "لاتيه",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://worldcoffeemap.com/reviews/riyadh/just-a-space",
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent café directory",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Matcha",
+      "retrievedValue": {
+        "nameEn": "Matcha",
+        "researchTranslationAr": "ماتشا",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://www.corner.inc/place/pYNfr8sqDN6K"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent place directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Hot Chocolate",
+      "retrievedValue": {
+        "nameEn": "Hot Chocolate",
+        "researchTranslationAr": "شوكولاتة ساخنة",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Waffle Sticks",
+      "retrievedValue": {
+        "nameEn": "Waffle Sticks",
+        "researchTranslationAr": "أعواد الوافل",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Tiramisu",
+      "retrievedValue": {
+        "nameEn": "Tiramisu",
+        "researchTranslationAr": "تيراميسو",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Cheesecake",
+      "retrievedValue": {
+        "nameEn": "Cheesecake",
+        "researchTranslationAr": "تشيز كيك",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Churros",
+      "retrievedValue": {
+        "nameEn": "Churros",
+        "researchTranslationAr": "تشوروز",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Cinnamon Rolls",
+      "retrievedValue": {
+        "nameEn": "Cinnamon Rolls",
+        "researchTranslationAr": "لفائف القرفة",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [
+        "https://restaurantguru.com/Just-A-Space-Riyadh"
+      ],
+      "sourceTypes": [
+        "Client research brief",
+        "Independent directory"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "low",
+      "verificationStatus": "PROVISIONAL",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Chocolate Babka",
+      "retrievedValue": {
+        "nameEn": "Chocolate Babka",
+        "researchTranslationAr": "بابكا بالشوكولاتة",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    },
+    {
+      "field": "menuCandidate.Latte -86°",
+      "retrievedValue": {
+        "nameEn": "Latte -86°",
+        "researchTranslationAr": "لاتيه ‎−86°",
+        "priceSar": null,
+        "variants": null,
+        "channel": null,
+        "effectiveFrom": null,
+        "available": null,
+        "allergens": null,
+        "publicationStatus": "draft"
+      },
+      "sourceUrls": [],
+      "sourceTypes": [
+        "Client research brief"
+      ],
+      "checkedOn": "2026-11-26",
+      "confidence": "unknown",
+      "verificationStatus": "UNKNOWN",
+      "conflictingInformation": null,
+      "publicationPermission": "research only",
+      "requiredFollowUp": "Compare to dated outlet menu and obtain written approval for each name, price, variant and required disclosures."
+    }
+  ]
+}

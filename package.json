@@ -1,0 +1,14 @@
+{
+  "name": "just-a-space-riyadh",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=24.0.0"},
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch scripts/dev.mjs",
+    "test": "node --test",
+    "lint": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
