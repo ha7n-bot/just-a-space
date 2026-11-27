@@ -1,0 +1,9 @@
+# Executed quality checks
+
+On November 26–27, 2026 the managed Chrome preview rendered each of the nine public routes in Arabic and English. Playwright DOM observations across all 18 pages found a unique localized title, correct document language/direction, one main element, one H1, image alt attributes where images appeared, and a noindex directive. Document scrolling width equalled the available width in every case (1,348 CSS px, 1,363 px for English contact). The Arabic homepage hero and detail image decoded at intrinsic widths 1,250 and 950 px. The visual check used the preview artwork, with the caption visible.
+
+The local Node 24 test suite passed all 16 tests at the time of this review. Tests exercised disposable SQLite state and HTTP CMS workflows, roles and sessions, private and published revisions, stale edits, media validation, archival, opening times and special closures, restored snapshots, cross-locale product search, output escaping, uploaded image mapping, coordinates and contacts.
+
+The standalone Python Playwright 1.62 browser matrix was attempted. The Chromium wrapper failed to launch because its executable target was absent. Firefox and WebKit binaries, axe-core and Lighthouse were unavailable. Thus the 8-width, 54-capture suite, disposable product journeys in a browser, magnification test, mobile interaction tests and automated WCAG scans are awaiting execution on a provisioned runner. The desktop browser observations above came from the separate managed Chrome UI. No mobile/cross-browser certification or 95+ score is issued.
+
+Reproduce the full isolated suite with `python qa/run-browser.py --browser chromium --axe /absolute/path/to/axe.min.js` after installing Python Playwright and its browser. Run the Firefox and WebKit variants as well. The GitHub browser workflow contains separate jobs for each engine and retains review artifacts. Workflow execution on GitHub requires repository access.

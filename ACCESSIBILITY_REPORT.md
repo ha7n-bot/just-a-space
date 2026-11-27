@@ -1,0 +1,5 @@
+# Accessibility review
+
+The browser accessibility tree exposed the Arabic homepage skip link, labeled main and footer navigation, language switch, headings, CTA links, and descriptive Arabic text for the studio artwork. One H1 and one main landmark were observed on each of 18 localized desktop pages. Document direction, localized titles, and the absence of desktop horizontal scrolling were checked on all pages. The Arabic homepage layout was inspected visually; the wordmark read left-to-right within the Arabic interface. A missing space between hero words was corrected in the heading markup.
+
+Semantic inspection does not establish all contrast, zoom/reflow, announcement, focus or touch-target requirements. The prepared suite includes narrow widths, 200% text, menu keyboard opening/closing and optional axe-core checks. The local browser binaries and axe-core needed to run those checks were unavailable. Verify live form errors, page and drawer focus, high text scaling, and native Arabic/English screen-reader navigation on target devices before making a WCAG 2.2 AA claim.

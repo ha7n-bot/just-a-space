@@ -33,3 +33,32 @@ Assessment date 2026-11-26. Findings below refer to the exact source and test ev
 An independent HTTP smoke test ran with an isolated database and a fixed loopback origin. All 18 visitor routes plus two localized 404 checks returned the expected statuses, direction, language and single main heading. Five requested static resources returned HTTP 200. An anonymous request for account management redirected to sign-in. The staging responses carried noindex. Source review also verified a 52-field research register covering the 17 candidate menu items and confirmed the design renders use original scene code and a licensed local Noto Sans Arabic font. The two preview WebP files measure 1250×1100 and 950×680 pixels.
 
 Independent local commands passed on Node 24: npm run lint (syntax validation), npm run build (localized staging output), and npm test (16 Node checks at this checkpoint). The implementation is JavaScript, so no TypeScript validation result applies. Later checks and visual evidence are recorded in QA_RESULTS.md and the final release decision below.
+
+## Final assessment and release decision
+
+**STAGING PREVIEW READY. Official public release is withheld.** This decision covers the bilingual review build and the separately runnable Node/SQLite CMS. A static preview demonstrates visitor pages only. The production host, business-controlled domain, owner bootstrap and approved data must be verified on the selected deployment before sign-off.
+
+| Category | Points | Evidence and deduction |
+| --- | ---: | --- |
+| Visual design and brand identity | 10 / 15 | Original licensed/created assets, architectural compositions and Arabic desktop visual review. Authentic branch photography, logo and operator brand approval outstanding. |
+| Arabic and English localization | 12 / 15 | Both sets of routes, differentiated writing, directional markup, corrected Arabic roles and mixed-direction price isolation. Full device and assistive-technology coverage pending. |
+| Functional completeness | 11 / 15 | Public workflows, gated contact links, CMS transactions, history, publication and recovery exercised. Authenticated production-host end-to-end journey, including all operational content, still pending. |
+| Responsive design | 5 / 10 | Logical CSS, mobile breakpoints, localized browser rendering and desktop reflow checked. Obtain executed eight-width matrix, zoom and full screenshot review. |
+| Business data accuracy | 5 / 10 | Disambiguation, per-field evidence and deliberate suppression of unsupported fields. Operator identity, official Arabic spelling, hours, channels and services unconfirmed. |
+| Menu and pricing accuracy | 2 / 10 | Historical malformed or missing prices suppressed. Synthetic test prices render correctly. No current approved in-store items or prices qualified for publication. |
+| Security and privacy | 7 / 10 | Source review and role, session, origin, upload and publication tests. Controller identity, retention, host access controls and deployed restore drill still require confirmation. |
+| Performance | 2 / 5 | Small server-rendered application, optimized stills and local font. No reproducible Lighthouse target results or real-user field measurements. |
+| Accessibility | 3 / 5 | Semantic routes, keyboard controls, focus styling and desktop browser checks. Axe and manual assistive-technology checks remain. |
+| SEO and deployment readiness | 3 / 5 | Localization metadata, conditional structured data, deployment and recovery tooling. Final domain, DNS/TLS, live crawl and host behavior await verification. |
+| **Evidence-supported total** | **60 / 100** | Independent release assessment. The 95-point target has not been established. |
+
+The browser QA agent reported a managed desktop Chrome sweep of all 18 visitor routes, including localized titles, directions, single headings, noindex and desktop document overflow. It also inspected the Arabic home visual with both stills decoded. The standalone browser/axe/Lighthouse toolchain did not supply a complete cross-browser or responsive baseline. See QA_RESULTS.md, ACCESSIBILITY_REPORT.md and PERFORMANCE_REPORT.md for the final measured subset and evidence. No independent claim of WCAG conformance, Lighthouse scores or field Core Web Vitals is made.
+
+### Release blockers and acceptance evidence
+
+1. **Branch owner and editorial approval.** Confirm authority, naming, licensed logo/photography, address/pin, weekly and exceptional hours, social/contact channels, and marketing copy. Maintain durable authorization references.
+2. **Operational menu.** Obtain date-stamped branch price/variant/availability and labeling evidence, settle tax presentation and applicable SFDA disclosures, and sign off the digital and print menu. Recheck details after publication through the real CMS.
+3. **Privacy implementation.** Establish controller identity, rights channel and actual host/log/backup retention. Approve corresponding Arabic and English notices against the release environment.
+4. **Browser and accessibility evidence.** Complete the requested mobile/tablet/desktop matrix, Firefox/WebKit, 200% zoom, assistive-technology and axe review. Re-run checks after substantive changes and close P0/P1 findings.
+5. **Production and performance.** Confirm business-controlled domain/host, HTTPS, authenticated preview, secure owner initialization, durable storage and recovery from the real backup service. Benchmark the release URLs using documented mobile Lighthouse settings. Record real-user metrics once adequate traffic exists.
+6. **Authorization to go live.** Approve the exact release reference, permissions, indexability, canonical origin and public content. Shipping source to a Git repository and deploying a restricted preview do not constitute official launch authorization.

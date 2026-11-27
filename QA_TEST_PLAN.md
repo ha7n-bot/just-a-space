@@ -9,3 +9,5 @@ Use an isolated preview with disposable credentials and content for workflow tes
 5. For an authorized axe-core installation pass `--axe /absolute/path/to/axe.min.js` to the browser harness. Test with screen reader users in Arabic and English on real devices before claiming conformance.
 6. Run Lighthouse on a freshly provisioned public-like origin under documented mobile throttling, using a fresh profile for every run. Record medians, engine, throttling and build. Report real-user data separately after launch and consent review.
 7. Verify protected CMS access, role boundaries, server validation, workflow transitions, soft archival, audit entries, and owner setup against disposable data. Tag blocking findings and retest after corrections.
+
+The isolated all-in-one command is `python qa/run-browser.py --browser chromium`. A working system Chromium can be selected with `--executable`. It allocates loopback ports, temporary databases and test-only products. The optional `--axe` mode permits test instrumentation through CSP only in the test browser context. Test the deployed CSP with default mode too.
