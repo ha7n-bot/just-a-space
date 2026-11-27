@@ -18,6 +18,18 @@ The 54 desktop axe scans reported zero tagged-rule violations. The fixture brows
 
 ## Local runner limitations
 
-The standalone Python Playwright 1.62 browser matrix was attempted. The Chromium wrapper failed to launch because its executable target was absent. Firefox and WebKit binaries, axe-core and Lighthouse were unavailable. The standalone local launcher therefore produced no server-independent browser matrix. The GitHub run above provides the separate viewport, screenshot and axe results. The desktop browser observations above came from the separate managed Chrome UI. No mobile/cross-browser certification or 95+ score is issued.
+The standalone Python Playwright 1.62 browser matrix was attempted. The Chromium wrapper failed to launch because its executable target was absent. Firefox and WebKit binaries, axe-core and Lighthouse were unavailable. The standalone local launcher therefore produced no server-independent browser matrix. The GitHub run above provides the separate viewport, screenshot and axe results. The desktop browser observations above came from the separate managed Chrome UI. The local runner alone cannot establish mobile or cross-browser behavior.
 
 Reproduce the full isolated suite with `python qa/run-browser.py --browser chromium --axe /absolute/path/to/axe.min.js` after installing Python Playwright and its browser. Run the Firefox and WebKit variants as well. The GitHub browser workflow contains separate jobs for each engine and retains review artifacts. The managed Chrome language switch successfully navigated from the Arabic to the English homepage.
+
+## Layout regression re-run
+
+Fixed commit `95fdf5e64e77fe6840bfc378b4a8dfeea9cf980c`, GitHub Actions run [45933864993](https://github.com/ha7n-bot/just-a-space/actions/runs/45933864993). Verified all three job logs. Chromium, Firefox and WebKit each passed 513 checks with zero failures (1,539 total). All three then passed the disposable bilingual product journeys covering search, category selection, item detail, size selection, empty results and inaccessible hidden/unpriced items. Content and fixture records stayed isolated. All 54 desktop axe scans remained clean under the configured rules. Each engine captured 54 screenshots. Both normal and enlarged-text overflow defects are closed for the tested configuration.
+
+- [Chromium screenshots and JSON](https://github.com/ha7n-bot/just-a-space/actions/runs/45933864993/artifacts/15169108831)
+- [Firefox screenshots and JSON](https://github.com/ha7n-bot/just-a-space/actions/runs/45933864993/artifacts/15169074198)
+- [WebKit screenshots and JSON](https://github.com/ha7n-bot/just-a-space/actions/runs/45933864993/artifacts/15169967071)
+
+The ordinary desktop-size smoke test does not replace manual verification on physical devices or native assistive technology. Screenshot capture is not an automated comparison to a previously approved visual baseline.
+
+The additional mobile Lighthouse workflow succeeded on both homepages. See PERFORMANCE_REPORT.md for category scores, lab metrics and unmet SEO target.
